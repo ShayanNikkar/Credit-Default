@@ -24,7 +24,7 @@ def main():
               "DecisionTree" : decision_tree,
               "RandomForest" : random_forest,
               "K-NearestNeighbor" : k_neighbour,
-              "SupportVectorMachine" : SVM,
+              #"SupportVectorMachine" : SVM,
               "NeuralNetwork" : nn,
               "XGBoost" : x_gboost}
     

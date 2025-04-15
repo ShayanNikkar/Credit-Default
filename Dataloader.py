@@ -21,8 +21,6 @@ def load_data(name , datafolder = "CSV Data"):
     '''
     
     
-    new_directory = "/Users/shayannikkar/Desktop/Qmul/Projects/Credit Default"
-    os.chdir(new_directory)
     try:
         data = pd.read_csv(os.path.join(datafolder , name) , index_col="id")
         print("Data Successfully Loaded")

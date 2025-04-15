@@ -24,7 +24,7 @@ def Business_impact(y_test , y_pred ,avrg_loan_amnt, profit_margin_good_loan=0.0
     total_cost = default_cost + opportunity_cost
     profit = tn * avrg_loan_amnt * profit_margin_good_loan
     
-    net_profit = profit - total_cost
+    net_profit = profit - default_cost
     
     return round(approval_rate,4) , round(total_cost,1) , round(net_profit,1)
     
